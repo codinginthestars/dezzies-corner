@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Yellowtail";
+    src: url('../assets/fonts/Yellowtail-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(117, 255, 117);
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1),0px 0px 15px -3px rgba(0,0,0,0.1);
+    background: whitesmoke;
+    margin: 0 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.home h1 {
+    text-align: center;
+    font-family: 'Yellowtail';
+    font-size: 40px;
+}
+
+.dezzie-image {
+    width: 400px;
+    border-radius: 50px;
+}
+
+.left-section p {
+    font-size: 30px;
+    font-family: 'Yellowtail';
+    margin: auto;
+    margin-top: 50px;
+}
